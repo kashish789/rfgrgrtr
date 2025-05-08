@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tyre Shop Poster</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: url('Screenshot-2025-05-07-123243.png') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .poster {
+      background-color: rgba(0, 0, 0, 0.75);
+      padding: 30px 40px;
+      border-radius: 12px;
+      max-width: 100%;
+      width: 500px;
+      color: #fff;
+      text-align: center;
+      box-shadow: 0 0 20px rgba(0,0,0,0.6);
+      margin-left: 400px;
+    }
+
+    .poster h1 {
+      font-size: 32px;
+      color: #f1c40f;
+    }
+
+    .poster h2 {
+      font-size: 32px;
+      color: white;
+    }
+
+    .poster p {
+      font-size: 18px;
+      margin: 8px 0;
+    }
+
+    .highlight {
+      color: #00e676;
+      font-weight: bold;
+    }
+
+    .cta {
+      background-color: #e74c3c;
+      color: white;
+      padding: 10px 20px;
+      font-size: 18px;
+      border: none;
+      border-radius: 5px;
+      margin-top: 20px;
+      cursor: pointer;
+    }
+
+    .cta:hover {
+      background-color: #c0392b;
+    }
+
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+      .poster {
+        padding: 20px 30px;
+        width: 90%; /* Take up more width on smaller screens */
+      }
+
+      .poster h1 {
+        font-size: 28px;
+      }
+
+      .poster h2 {
+        font-size: 28px;
+      }
+
+      .poster p {
+        font-size: 16px;
+      }
+
+      .cta {
+        font-size: 16px;
+        padding: 8px 18px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .poster {
+        padding: 15px 20px;
+        width: 90%; /* Take up more width on small screens */
+      }
+
+      .poster h1 {
+        font-size: 24px;
+      }
+
+      .poster h2 {
+        font-size: 24px;
+      }
+
+      .poster p {
+        font-size: 14px;
+      }
+
+      .cta {
+        font-size: 14px;
+        padding: 6px 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="poster">
+    <h1>SAI TRADING COMPANY</h1>
+    <h2>BK TYRES</h2>
+    <p class="highlight">Owner: Mr. Krishan Lal</p>
+    <p>📞 +91 9812306703</p>
+    <p>📍 RK PURAM Gali:14 Near Bharti Diary</p>
+    <p>🛠 Puncture Repair | Wheel Alignment | New Tyres</p>
+    <button class="cta">Call Now</button>
+  </div>
+
+</body>
+</html>
